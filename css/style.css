@@ -1,0 +1,54 @@
+/*NAV CON FLEX*/
+/* nav{
+    background-color: antiquewhite;
+    display: flex;
+    height: 100px;
+    justify-content: space-between;
+}
+
+.nav_menu{
+    display: flex;
+    justify-content: space-between;
+    width: 200px;
+    align-items: center;
+}
+
+.iconos{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 200px;
+}
+
+img{
+    width: 20px;
+    height: 20px;
+} */
+
+/*NAV CON GRID*/
+nav{
+    background-color: rgb(245, 127, 42);
+    display: grid;
+    grid-template-columns: repeat(3 , 1fr);
+    height: 15vh;
+}
+
+.start{
+    display: grid;
+    grid-template-columns: repeat(4 , 1fr);
+    justify-items: center;
+    align-items: center;
+}
+
+.end{
+    grid-column: 3 / 4;
+    display: grid;
+    grid-template-columns: repeat(4 , 1fr);
+    justify-items: center;
+    align-items: center;
+}
+
+img{
+    width: 40px;
+    height: 40px;
+}
